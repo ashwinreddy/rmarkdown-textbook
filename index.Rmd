@@ -1,6 +1,6 @@
 ---
-title: "Machine Learning"
-author: "Ashwin Reddy"
+title: ""
+author: ""
 output:
     bookdown::tufte_book2:
         pandoc_args: ['-M', 'lof', '-M', '-lot']
