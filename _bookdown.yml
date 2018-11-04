@@ -1,0 +1,2 @@
+output_dir: "book"
+book_filename: "book.Rmd"

@@ -1,0 +1,31 @@
+---
+title: ""
+author: ""
+output:
+    bookdown::tufte_book2:
+        pandoc_args: ['-M', 'lof', '-M', '-lot']
+header-includes: |
+    \usepackage{commath}
+    \usepackage{indent first}
+---
+
+```{r global_options, include = FALSE}
+
+library(knitr)
+knitr::opt_chunks$set(fig.path = 'Figs/', echo = TRUE)
+
+```
+
+```{python, echo = FALSE}
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+import numpy as np
+
+rc('text', usetex=True)
+```
+
+# Introduction
+
+# (PART\*) Appendix {-}
+
+# (APPENDIX) Appendix {-}
