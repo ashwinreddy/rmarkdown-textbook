@@ -4,6 +4,8 @@ author: ""
 output:
     bookdown::tufte_book2:
         pandoc_args: ['-M', 'lof', '-M', '-lot']
+bibliography: ["references.bib"]
+biblio-style: "apalike"
 header-includes: |
     \usepackage{commath}
     \usepackage{indent first}
