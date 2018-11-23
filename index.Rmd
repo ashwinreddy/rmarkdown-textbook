@@ -7,7 +7,7 @@ output:
 bibliography: ["references.bib"]
 biblio-style: "apalike"
 header-includes: |
-    \usepackage{commath}
+    \usepackage{physics}
     \usepackage{indent first}
 ---
 
@@ -27,7 +27,3 @@ rc('text', usetex=True)
 ```
 
 # Introduction
-
-# (PART\*) Appendix {-}
-
-# (APPENDIX) Appendix {-}
